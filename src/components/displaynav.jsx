@@ -18,7 +18,8 @@ function Displaynav() {
           })
      })
   return (
-    <div className='w-full h-14 disnav flex items-center relative justify-end px-2 sm:px-5 gap-2'>
+    <div className='fixed right-0 displaynav'>
+     <div className='w-full h-14 disnav flex items-center relative justify-end px-2 sm:px-5 gap-2'>
      <input type="text" name="search" id="search" placeholder='Search here' className=' rounded-md px-1.5 bg-zinc-200/20 border' />
      <span className=' font-semibold absolute bg-[#7c3ebb] mt-1 sm:mt-0 py-2 top-full rounded-lg px-3 right-2 text-sm hidden gap-1 sm:block sm:top-0 sm:left-0 sm:relative sm:bg-transparent' id='linkdis'>
      <span className='flex flex-col sm:flex sm:flex-row'>
@@ -33,6 +34,7 @@ function Displaynav() {
      <i class="ri-menu-4-line text-3xl font-medium transition-all cursor-pointer" id='openwindow'></i>
      <i class="ri-menu-5-line text-3xl font-medium transition-all hidden cursor-pointer" id='closewindow'></i>
      </span>
+    </div>
     </div>
   )
 }

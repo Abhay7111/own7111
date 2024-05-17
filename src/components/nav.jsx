@@ -26,7 +26,7 @@ function Nav() {
                <li><a className='flex gap-1.5 ' href="#"> <i className=' text-2xl sm:text-lg ri-money-rupee-circle-fill'></i> <span className='hidden sm:block'>Prising</span></a></li>
                <li><a className='flex gap-1.5 ' href="#"> <i className=' text-2xl sm:text-lg ri-settings-5-fill'></i> <span className='hidden sm:block'>Setting</span></a></li>
           </ul>
-          <div className='w-full sm:min-h-14 mt-3 rounded-lg border border-dotted overflow-hidden'>
+          <div className='w-16 sm:w-full sm:min-h-14 mt-3 rounded-lg border border-dotted overflow-hidden'>
                <p className='break-words py-2 px-1 text-sm sm:p-2 line-clamp-3 sm:line-clamp-none'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sit totam repellendus ipsum explicabo eum veniam quod praesentium quos corrupti.</p>
           </div>
      </div>
