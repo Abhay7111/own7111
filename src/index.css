@@ -24,6 +24,11 @@ html, body{
 .disnav{
   background: linear-gradient(to right, #9751DD, #6D34A6);
 }
+
+.cardgrad{
+  background: linear-gradient(to right, #9751DD, #6D34A6);
+}
+
 /* 
 .displaynav{
   width: calc(100% - 5.1rem);
