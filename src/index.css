@@ -5,7 +5,9 @@
 *{
   padding: 0%;
   margin: 0%;
-  font-family: Calibri;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   color: rgb(223, 223, 223);
 }
 
@@ -22,7 +24,22 @@ html, body{
 .disnav{
   background: linear-gradient(to right, #9751DD, #6D34A6);
 }
-
+/* 
 .displaynav{
-  width: calc(100% - 24rem);
+  width: calc(100% - 5.1rem);
+} */
+::-webkit-scrollbar{
+  display: none;
+}
+.calkw{
+  width: calc(100% - 85px);
+}
+.calch{
+  height: calc(100% - 116px);
+}
+
+@media only screen and (min-width: 640px) {
+  .calkw{
+    width: calc(100% - 384px);
+  }
 }
