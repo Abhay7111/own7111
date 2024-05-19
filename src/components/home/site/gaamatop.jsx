@@ -5,8 +5,10 @@ import rightarow from '/right-arow.png';
 function Gaamatop() {
   return (
      <div className='w-full h-fit flex py-2 items-start flex-wrap justify-center gap-3'>
-     <div className='w-full h-60 cardgrad py-3 px-5 rounded-lg flex flex-col sm:flex sm:flex-row sm:w-[70%] sm:h-52'>
-       <h1><span></span><span></span></h1>
+     <div className='w-full h-52 cardgrad rounded-lg flex sm:flex-row'>
+      <div>
+        
+      </div>
      </div>
      <div className='size-32 bg-[#9650DB] rounded-lg overflow-hidden sm:size-52'>
        <a href="https://www.gaama.top"><img className='w-full h-full object-cover object-top rounded-lg' src="https://cdn.pixabay.com/photo/2024/02/21/11/34/ai-generated-8587505_1280.png" /></a>
